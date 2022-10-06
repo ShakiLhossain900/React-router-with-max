@@ -1,8 +1,8 @@
-import {Route} from 'react-router-dom'
+import { Route } from "react-router-dom";
 function App() {
   return (
     <div>
-        <Route path="/welcome"/>
+      <Route path="/welcome"></Route>
     </div>
   );
 }
