@@ -7,13 +7,13 @@ const Producsts = () => {
       <h1>The Producsts Page</h1>
       <ul>
         <li>
-          <Link to="/producsts/p1">A Books</Link>
+          <Link to="/products/p1">A Books</Link>
         </li>
         <li>
-          <Link to="/producsts/p2">A Carpet</Link>
+          <Link to="/products/p2">A Carpet</Link>
         </li>
         <li>
-          <Link to="/producsts/p3">An Online Course</Link>
+          <Link to="/products/p3">An Online Course</Link>
         </li>
       </ul>
     </div>
