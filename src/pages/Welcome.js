@@ -1,19 +1,5 @@
-import React from 'react';
-import { Route,Routes } from 'react-router-dom';
-
-const welcome = () => {
-    return (
-        <div>
-            <h1>The Welcome Page</h1>
-            <Routes>
-                <Route path="/welcome/new-user" >
-                 <p> there is some text</p>
-                </Route>
-            </Routes>
-        </div>
-    );
-};
-
-export default welcome;
-
-//..// nested routing can not working    --->>>>>>>> module 10
+const Welcome = () => {
+    return <h1>The Welcome Page</h1>;
+  };
+  
+  export default Welcome;

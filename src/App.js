@@ -1,25 +1,31 @@
-import { Route, Routes } from "react-router-dom";
-import Welcome from "./pages/Welcome";
-import Producsts from "./pages/Producsts";
-import React from "react";
-import MainHeader from "./components/MainHeader";
-import ProductDetail from "./pages/ProductDetail";
+import { Route } from 'react-router-dom';
+
+import Welcome from './pages/Welcome';
+import Products from './pages/Products';
+import ProductDetail from './pages/ProductDetail';
+import MainHeader from './components/MainHeader';
+
 function App() {
   return (
-    <React.Fragment>
+    <div>
       <MainHeader />
       <main>
-        <Routes>
-          <Route path="/welcome" element={<Welcome />} />
-          <Route path="/products" exact element={<Producsts />} />
-          <Route
-            path="/products/:productId"
-            element={<ProductDetail />}
-          />
-        </Routes>
+        <Route path='/welcome'>
+          <Welcome />
+        </Route>
+        <Route path='/products'>
+          <Products />
+        </Route>
+        <Route path='/product-detail/:productId'>
+          <ProductDetail />
+        </Route>
       </main>
-    </React.Fragment>
+    </div>
   );
 }
 
 export default App;
+
+// our-domain.com/welcome => Welcome Component
+// our-domain.com/products => Products Component
+// our-domain.com/product-detail/a-book
