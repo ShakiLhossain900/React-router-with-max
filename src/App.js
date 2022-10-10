@@ -16,7 +16,8 @@ function App() {
         <Route path='/products'>
           <Products />
         </Route>
-        <Route path='/products/:productId'>
+        {/* :productId  this is a dynamic sagment*/}
+        <Route path='/products/:productId'> 
           <ProductDetail />
         </Route>
       </main>
