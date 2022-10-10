@@ -17,3 +17,4 @@ const welcome = () => {
 export default welcome;
 
 //..// nested routing can not working    --->>>>>>>> module 10
+//working about nested routing
