@@ -15,3 +15,4 @@ export default Welcome;
 //this month i need fully completed the react.js
 //after one month the planed need to be changed about the react.js
 // within this year i need to be mern stack developer
+//than need to get one good job
